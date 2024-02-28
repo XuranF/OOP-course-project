@@ -15,7 +15,7 @@ This also make panel become an intermedia, so classes can borrow methods from ot
 without the need to initiate objects of those classes, instead, the borrowers only need to instantiate
 the panel since panel has instances of all classes.
   <br/><br/>
-![ezcv logo](https://raw.githubusercontent.com/XuranF/OOP-course-project/main/Design.png)
+<img src="/Design.png" width="600">
 
 <h3>How to Play</h3>
 - Use `WASD` to control player’s movement and use `SPACE` to drop
