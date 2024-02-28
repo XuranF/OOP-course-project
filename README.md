@@ -14,7 +14,6 @@ elements and their corresponding setters, and set all the elements that could be
 This also make panel become an intermedia, so classes can borrow methods from other classes
 without the need to initiate objects of those classes, instead, the borrowers only need to instantiate
 the panel since panel has instances of all classes.
-  <br/><br/>
 <img src="/Design.png" width="600">
 
 
@@ -23,6 +22,6 @@ the panel since panel has instances of all classes.
 bomb. The enemies will only place bombs when they are intersecting with you, but they have a
 larger moving speed, and they can also pick up props. Your goal is to kill all enemies by
 placing bombs and avoid being killed by them.
-
+<img src="/MainPage.png" width="600">
 
 
