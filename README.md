@@ -1,4 +1,4 @@
-<h3>Proposal</h3>
+### Proposal
 - This project is trying to reproduce the classic game Bomberman but with some personal
   features. The game asks players to kill enemyNPCs by placing bombs in a designed map maze.
   The bombs will explode in vertical and horizontal directions after some time and not only can
@@ -8,7 +8,7 @@
   explosion.
   I’d like to create a human player vs AI players mode and explore about strategy design pattern.
 
-<h3>Design</h3>
+### Design
 - The final design I use is shown below. I use strategy pattern to separate
 elements and their corresponding setters, and set all the elements that could be drawn on the panel.
 This also make panel become an intermedia, so classes can borrow methods from other classes
@@ -17,7 +17,8 @@ the panel since panel has instances of all classes.
   <br/><br/>
 <img src="/Design.png" width="600">
 
-<h3>How to Play</h3>
+
+### How to Play
 - Use `WASD` to control player’s movement and use `SPACE` to drop
 bomb. The enemies will only place bombs when they are intersecting with you, but they have a
 larger moving speed, and they can also pick up props. Your goal is to kill all enemies by
